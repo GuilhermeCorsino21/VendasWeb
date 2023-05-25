@@ -14,6 +14,6 @@ namespace WebApplication2.Data
         {
         }
 
-        public DbSet<WebApplication2.Models.Department> Department { get; set; } = default!;
+        public DbSet<Department> Department { get; set; } = default!;
     }
 }
